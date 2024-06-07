@@ -1,7 +1,7 @@
 package com.example.malis.IoCandDi.springIntroduction;
 
-public class Dog {
-    public void Say(){
+public class Dog implements Pet{
+    public void say(){
         System.out.println("Bow-Wow");
     }
 }
